@@ -64,5 +64,5 @@ jobs:
           # need to set this value, if it is set in the frogbot-config.yml file.
           # JF_DEPS_REPO: ""
 
-          JFROG_CLI_LOG_LEVEL: DEBUG
+          JF_REQUIREMENTS_FILE: true
           
