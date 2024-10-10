@@ -13,6 +13,7 @@ name: "Frogbot Scan and Fix"
 on:
   push:
     branches: [ "master" ]
+  workflow_dispatch:
 permissions:
   contents: write
   pull-requests: write
